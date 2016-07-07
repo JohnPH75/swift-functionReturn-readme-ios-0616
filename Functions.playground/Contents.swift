@@ -6,7 +6,7 @@ printAge("Adam")
 
 
 func happyBirthday(age: Int) {
-    print("Happy birthday #\(age)!")
+    print("Happy birthday \(age)!")
 }
 
 
@@ -28,7 +28,7 @@ happyBirthday(friendAge)
 
 
 func birthdayGreeting(age: Int) -> String {
-    return "Happy birthday #\(age)!"
+    return "Happy birthday \(age)!"
 }
 
 var greeting = birthdayGreeting(30)
